@@ -1,0 +1,17 @@
+POST http://localhost:9090/api/posts
+Accept: application/json
+Content-Type: application/json
+
+{
+    "title": "My second post",
+    "markdown_content": "#This is my first post --- This is the content of my first post\\ [sammi](https://sammidev.codes)"
+}
+
+###
+
+GET http://localhost:9090/api/posts/cc978717-c141-4f55-9ed5-68f235911f2f
+Accept: application/json
+###
+
+GET http://localhost:9090/api/posts
+Accept: application/json
